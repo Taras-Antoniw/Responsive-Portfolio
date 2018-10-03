@@ -39,7 +39,7 @@ p {
     float: left;
     border: 0px #4aaaa5;
     color: white;
-    width: 25%;
+    width: 30%;
     padding: 30px;
     background-color: #4aaaa5;
     font-size: 30px;
@@ -261,15 +261,15 @@ body{
     }
 
     #name1{
-        width: 418px;
+        width: 518px;
     }
 
     #email{
-        width: 418px;
+        width: 518px;
     }
 
     #message{
-        width: 418px;
+        width: 518px;
     }
 
     #content3{
@@ -290,10 +290,184 @@ body{
     body {
         background-color: yellow;
     }
+
+    #headings{
+        margin-right: 30px;
+        margin-left:30px;
+        width: 100%;
+    }
+    #selector 
+    ul{
+        margin-right:20px;
+    }
+
+    #selector li{
+        width: 60px;
+        padding: 20px;
+    }
+    #line{
+        width: 580px;
+    }
+
+    #content1{
+        width: 700px;
+        margin: auto;
+    }
+
+    #content2{
+        width: 700px;
+        margin: 30px;
+    }
+
+    #name1{
+        width: 618px;
+    }
+
+    #email{
+        width: 618px;
+    }
+
+    #message{
+        width: 618px;
+    }
+
+    #content3{
+        width: 700px;
+        margin: 30px;
+    }
+
+    .together{
+        width: 300px;
+    }
+
+    .images{
+        width: 300px;
+    }
 }
+
 
 @media screen and (max-width: 640px) {
     body {
         background-color: red;
+        }
+    
+
+    header {
+    
+        width: 640px;
+        height: auto;
+        margin: 0px;
+        background-color: #ffffff;
+        border-bottom: 0px solid #666666;
+    
     }
+    #headings {
+        width: 640px;
+        border: 0px solid #ffffff;
+        background-color: #ffffff;
+    
+        
+        height: auto;
+        
+    
+        margin: auto;
+    
+        
+    
+    }
+    title {
+        clear: both;
+        color: #4aaaa5;
+        padding: 0px;
+        font-size: 0px;
+        align-content: center;
+    }
+
+    #name{
+        float: none;
+        align-content: center;
+        width: 640px;
+        text-align: center;
+        margin: 0px;
+    }
+
+        #selector{
+            float: right;
+            background-color: #ffffff;
+            border: 1px solid black;
+            width: 640px;
+            height: 50px;
+            margin: auto%;
+            text-align: center;
+        
+            
+        }
+        #selector
+            ul{
+                list-style-type: none;
+                margin: 0px;
+                
+            }
+        
+        #selector
+            li {
+                float: right;
+                width: 33%;
+                border: 0px solid #555;
+                text-align: centre;
+                padding: 0px;
+        }
+        
+        #selector
+             li.a {
+                display: block;
+                width: 33%;
+                color: #000;
+        }
+        
+        #selector
+            li a:hover {
+                background-color: #555;
+                color: white;
+            }
+    #line{
+        width: 558px;
+        }
+    
+    #content1{
+        width: 640px;
+        margin: 30px;
+    }
+    
+    #content2{
+        width: 640px;
+        margin: 30px;
+    }
+    
+    #name1{
+            width: 558px;
+        }
+    
+        #email{
+            width: 558px;
+        }
+    
+        #message{
+            width: 558px;
+        }
+    
+        #content3{
+            width: 640px;
+            margin: 30px;
+        }
+    
+        .together{
+            width: 400px;
+        }
+    
+        .images{
+            width: 400px;
+        }
+    
+    
 }
